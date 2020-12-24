@@ -14,4 +14,5 @@ for tr in rows:
     row = [str(tr.get_text()).strip() for tr in td]
     l.append(row)
 df = pd.DataFrame(l, columns=coulume_names)
-df.to_csv('infl_file10.csv') #Change the file name
+df.to_csv('infl_file10.csv') 
+#you can do it in a for boucle that will be easy and buy some time 
